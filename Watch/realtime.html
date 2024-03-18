@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Current Time</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script>
+            function updateClock() {
+              const now = new Date();
+              let hours = now.getHours().toString().padStart(2, '0');
+              let minutes = now.getMinutes().toString().padStart(2, '0');
+              let seconds = now.getSeconds().toString().padStart(2, '0');
+              document.getElementById('clock').innerText = `${hours}:${minutes}:${seconds}`;
+            }
+            setInterval(updateClock, 1000);
+        </script>
+        <h2>Here is the Real Time Runnig Watch</h2>
+        <h1>Current Time</h1>
+        
+        <div class="div"><br>
+            <h4>Jai Shree Ram</h4>
+            <strong id="clock" class="time">00:00:00</strong>
+        </div>
+    </body>
+</html>
