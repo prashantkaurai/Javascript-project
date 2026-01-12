@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Creative Portfolio Template</title>
+        <link
+            rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <!-- header area -->
+        <header class="navigation fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#home"> LOGO </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="offcanvas offcanvas-end bg-primary"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel"
+                >
+                    <div class="offcanvas-header">
+                        <button
+                            type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav text-center ms-lg-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial">Testimonial</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- hero area -->
+        <section class="hero-area bg-primary" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-11 mx-auto">
+                        <h1 class="text-white wow fadeIn">
+                            Hi! I’m <br />
+                            <span>Steve</span> <br />
+                            Web Developer
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="layer-bg w-100">
+                <img
+                    class="img-fluid w-100 wow fadeInUp"
+                    data-wow-duration="1" data-wow-delay="0.10s"
+                    src="https://i.ibb.co/55P8S5t/leaf-bg.png"
+                    alt="bg-shape"
+                />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.1s" id="l2"
+            >
+                <img src="https://i.ibb.co/WxwnFr4/dots-cyan.png" alt="bg-shape"/>
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.2s" id="l3"
+            >
+                <img src="https://i.ibb.co/fNTqHq5/leaf-orange.png"alt="bg-shape"/>
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.3s" id="l4"
+            >
+                <img src="https://i.ibb.co/gSXwY8t/dots-orange.png" alt="bg-shape" />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.4s" id="l5"
+            >
+                <img  src="https://i.ibb.co/mFMFLh7/leaf-yellow.png"  alt="bg-shape" />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.5s" id="l6"
+            >
+                <img src="https://i.ibb.co/7RksBzQ/leaf-cyan.png"  alt="bg-shape" />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.6s"
+                id="l7"
+            >
+                <img
+                    src="https://i.ibb.co/SKRbTR3/dots-group-orange.png"
+                    alt="bg-shape"
+                />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.7s" id="l8"
+            >
+                <img src="https://i.ibb.co/Ms3xvCV/leaf-pink-round.png" alt="bg-shape" />
+            </div>
+            <div
+                class="layer wow fadeIn"
+                data-wow-duration="1"
+                data-wow-delay="0.8s" id="l9"
+            >
+                <img src="https://i.ibb.co/3m64wWs/leaf-cyan-2.png"  alt="bg-shape" />
+            </div>
+            <!-- social icon -->
+            <ul class="list-unstyled ms-5 mt-3 position-relative zindex-1">
+                <li class="mb-3 wow fadeInDown" data-wow-duration="1" data-wow-delay="0.2s">
+                    <a class="text-white" href="#"><i class="ti-facebook"></i></a>
+                </li>
+                <li class="mb-3 wow fadeInDown" data-wow-duration="1" data-wow-delay="0.4s">
+                    <a class="text-white" href="#"
+                        ><i class="ti-instagram"></i></a>
+                </li>
+                <li class="mb-3 wow fadeInDown" data-wow-duration="1" data-wow-delay="0.6s">
+                    <a class="text-white" href="#"
+                        ><i class="ti-dribbble"></i></a>
+                </li>
+                <li class="mb-3 wow fadeInDown" data-wow-duration="1" data-wow-delay="0.8s">
+                    <a class="text-white" href="#"><i class="ti-twitter"></i></a>
+                </li>
+            </ul>
+            <!-- /social icon -->
+        </section>
+        <!-- about -->
+        <section class="section wow fadeIn" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto text-center">
+                        <p class="paragraph-lg text-dark">
+                            As a passionate web developers, I specialize in
+                            crafting visually engaging and user-centric digital
+                            experiences. With a keen eye for detail, I combine
+                            creativity and technical expertise to design
+                            intuitive interfaces that not only look stunning but
+                            also function seamlessly. My work focuses on
+                            understanding user behavior, simplifying complex
+                            problems, and delivering responsive designs that
+                            enhance user interaction. Whether it's prototyping,
+                            wireframing, or coding the final product, I bring
+                            ideas to life through thoughtful design and clean,
+                            efficient development.
+                        </p>
+                        <a href="#" class="btn btn-transparent">know more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Skills</h2>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div
+                            class="card shadow text-center wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.2s"
+                        >
+                            <div
+                                class="position-relative rounded-top progress-wrapper"
+                                data-color="#fdb157"
+                            >
+                                <div class="wave" data-progress="90%"></div>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <h4 class="card-title">Web Design (90%)</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div
+                            class="card shadow text-center wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4s"
+                        >
+                            <div
+                                class="position-relative rounded-top progress-wrapper"
+                                data-color="#9473e6"
+                            >
+                                <div class="wave" data-progress="60%"></div>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <h4 class="card-title">Javascript (70%)</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div
+                            class="card shadow text-center wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.6s"
+                        >
+                            <div
+                                class="position-relative rounded-top progress-wrapper"
+                                data-color="#bdecf6"
+                            >
+                                <div class="wave" data-progress="80%"></div>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <h4 class="card-title">CSS (80%)</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+                        <div
+                            class="card shadow text-center wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.8s"
+                        >
+                            <div
+                                class="position-relative rounded-top progress-wrapper"
+                                data-color="#ffbcaa"
+                            >
+                                <div class="wave" data-progress="70%"></div>
+                            </div>
+                            <div class="card-footer bg-white">
+                                <h4 class="card-title">React (70%)</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /skills -->
+
+        <!-- experience -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Experience</h2>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 text-center wow fadeIn"
+                        data-wow-duration="1"
+                        data-wow-delay="0.4"
+                    >
+                        <img
+                            src="https://i.ibb.co/W2WXHrk/icon-1.png"
+                            alt="icon"
+                        />
+                        <p class="mb-0">Jan 2018 - Feb 2020</p>
+                        <h4>Junior Designer</h4>
+                        <h6 class="text-secondary">Amazon</h6>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 text-center wow fadeIn"
+                        data-wow-duration="1"
+                        data-wow-delay="0.6"
+                    >
+                        <img
+                            src="https://i.ibb.co/L03SCQy/icon-2.png"
+                            alt="icon"
+                        />
+                        <p class="mb-0">Mar 2020 - Aug 2022</p>
+                        <h4>Web Designer</h4>
+                        <h6 class="text-secondary">Amazon</h6>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 text-center wow fadeIn"
+                        data-wow-duration="1"
+                        data-wow-delay="0.12"
+                    >
+                        <img
+                            src="https://i.ibb.co/9p8mn46/icon-3.png"
+                            alt="icon"
+                        />
+                        <p class="mb-0">Sep 2022 - Present</p>
+                        <h4>Senior Designer</h4>
+                        <h6 class="text-secondary">Google</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./experience -->
+
+        <!-- education -->
+        <section class="section position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Education</h2>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5">
+                        <div
+                            class="d-flex wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4"
+                        >
+                            <div class="me-lg-5 me-3">
+                                <i
+                                    class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="text-dark mb-1">2017</p>
+                                <h4>Marters in Web Design</h4>
+                                <p class="mb-0 text-secondary">
+                                    Masassusets Institute of Technology
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5">
+                        <div
+                            class="d-flex wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.6"
+                        >
+                            <div class="me-lg-5 me-3">
+                                <i
+                                    class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="text-dark mb-1">2015</p>
+                                <h4>Honours in Design</h4>
+                                <p class="mb-0 text-secondary">
+                                    Harvard University
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5">
+                        <div
+                            class="d-flex wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.12"
+                        >
+                            <div class="me-lg-5 me-3">
+                                <i
+                                    class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="text-dark mb-1">2013</p>
+                                <h4>Higher Secondary Certificat</h4>
+                                <p class="mb-0 text-secondary">
+                                    St.Johns Convent School
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-5">
+                        <div
+                            class="d-flex wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.8"
+                        >
+                            <div class="me-lg-5 me-3">
+                                <i
+                                    class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"
+                                ></i>
+                            </div>
+                            <div>
+                                <p class="text-dark mb-1">2011</p>
+                                <h4>Secondary School Certificate</h4>
+                                <p class="mb-0 text-secondary">
+                                    St.Johns Convent School
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bg image -->
+            <img
+                class="img-fluid edu-bg-image w-100"
+                src="https://i.ibb.co/V22h7D5/education-bg.png"
+                alt="education-bg"
+            />
+        </section>
+
+        <!-- services -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Services</h2>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div
+                            class="card hover-shadow shadow wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4"
+                        >
+                            <div class="card-body text-center px-4 py-5">
+                                <i
+                                    class="ti-palette icon mb-5 d-inline-block"
+                                ></i>
+                                <h4 class="mb-4">UI Design</h4>
+                                <p>
+                                    I specialize in creating user-friendly,
+                                    visually stunning interfaces that enhance
+                                    user experience. From wireframes to
+                                    prototypes, I ensure every design element is
+                                    aligned with your brand and meets your
+                                    users' needs for intuitive navigation and
+                                    interaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div
+                            class="card active-bg-primary hover-shadow shadow wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.6"
+                        >
+                            <div class="card-body text-center px-4 py-5">
+                                <i
+                                    class="ti-vector icon mb-5 d-inline-block"
+                                ></i>
+                                <h4 class="mb-4">UX Design</h4>
+                                <p>
+                                    I develop fully responsive websites that
+                                    look and perform flawlessly across all
+                                    devices. Whether it's a landing page or a
+                                    full-scale platform, I ensure fast loading
+                                    times, clean code, and a seamless user
+                                    experience on mobile, tablet, and desktop.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div
+                            class="card hover-shadow shadow wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.12"
+                        >
+                            <div class="card-body text-center px-4 py-5">
+                                <i
+                                    class="ti-panel icon mb-5 d-inline-block"
+                                ></i>
+                                <h4 class="mb-4">Interaction Design</h4>
+                                <p>
+                                    I create interactive prototypes to bring
+                                    your ideas to life and validate them through
+                                    user testing. This process ensures that your
+                                    product resonates with your target audience
+                                    before development, saving time and reducing
+                                    costly revisions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="section" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row shuffle-wrapper">
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4"
+                        >
+                            <img
+                                src="https://i.ibb.co/FKbC3d8/item-2.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.8"
+                        >
+                            <img
+                                src="https://i.ibb.co/XD3582Z/item-3.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.12"
+                        >
+                            <img
+                                src="https://i.ibb.co/3h5mHhJ/item-4.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.16"
+                        >
+                            <img
+                                src="https://i.ibb.co/HrkNmhG/item-5.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.20"
+                        >
+                            <img
+                                src="https://i.ibb.co/FKbC3d8/item-2.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6 mb-4 shuffle-item">
+                        <div
+                            class="position-relative rounded hover-wrapper wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.24"
+                        >
+                            <img
+                                src="https://i.ibb.co/HrkNmhG/item-5.png"
+                                alt="portfolio-image"
+                                class="img-fluid rounded w-100"
+                            />
+                            <div class="hover-overlay">
+                                <div class="hover-content">
+                                    <a class="btn btn-light btn-sm" href="#!"
+                                        >view project</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonial -->
+        <section
+            class="section bg-primary position-relative testimonial-bg-shapes"
+            id="testimonial"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title wow fadeInDown text-white mb-5">
+                            Testimonials
+                        </h2>
+                    </div>
+                    <div class="col-lg-10 mx-auto testimonial-slider">
+                        <!-- slider-item -->
+                        <div class="text-center testimonial-content">
+                            <i
+                                class="ti-quote-right text-white icon mb-4 d-inline-block"
+                            ></i>
+                            <p class="text-white mb-4">
+                                In this blog, we explore the essential
+                                connection between UI (User Interface) and UX
+                                (User Experience) design. Learn how these two
+                                disciplines complement each other to create
+                                intuitive, user-friendly products that look
+                                great and perform even better. Whether you're a
+                                designer or developer, understanding this
+                                balance is key to delivering a successful
+                                digital product.
+                            </p>
+                            <img
+                                class="img-fluid rounded-circle mb-4 d-inline-block"
+                                src="Client 1.png" width="150px" alt="client-image"
+                            />
+                            <h4 class="text-white">Angela Gomez</h4>
+                            <h6 class="text-light mb-4">CEO, ABC</h6>
+                        </div>
+                        <!-- slider-item -->
+                        <div class="text-center testimonial-content">
+                            <i
+                                class="ti-quote-right text-white icon mb-4 d-inline-block"
+                            ></i>
+                            <p class="text-white mb-4">
+                                Even the most experienced designers can fall
+                                into common UI/UX pitfalls that affect user
+                                satisfaction. In this post, we'll dive into the
+                                top five mistakes designers make, from cluttered
+                                interfaces to poor navigation, and offer
+                                practical tips on how to avoid them to ensure
+                                your designs are user-focused and efficient.
+                            </p>
+                            <img
+                                class="img-fluid rounded-circle mb-4 d-inline-block"
+                                src="Client 1.png"
+                                width="150px"
+                                alt="client-image"
+                            />
+                            <h4 class="text-white">Angela Gomez</h4>
+                            <h6 class="text-light mb-4">CEO, ABC</h6>
+                        </div>
+                        <!-- slider-item -->
+                        <div class="text-center testimonial-content">
+                            <i
+                                class="ti-quote-right text-white icon mb-4 d-inline-block"
+                            ></i>
+                            <p class="text-white mb-4">
+                                With mobile usage surpassing desktop, responsive
+                                design is no longer an option—it's a necessity.
+                                This blog will guide you through the importance
+                                of responsive design, how to implement it
+                                effectively, and the tools you can use to ensure
+                                your websites look great and function smoothly
+                                on any device.
+                            </p>
+                            <img
+                                class="img-fluid rounded-circle mb-4 d-inline-block"
+                                src="Client 1.png" width="150px" alt="client-image"
+                            />
+                            <h4 class="text-white">Angela Gomez</h4>
+                            <h6 class="text-light mb-4">CEO, ABC</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bg shapes -->
+            <img
+                class="img-fluid bg-map"
+                src="https://i.ibb.co/6DjyRZz/map.png" alt="map"
+            />
+            <img
+                src="https://i.ibb.co/72yZxY9/dots-group-v.png"
+                alt="bg-shape" class="img-fluid bg-shape-1"
+            />
+            <img
+                src="https://i.ibb.co/fNTqHq5/leaf-orange.png"
+                alt="bg-shape" class="img-fluid bg-shape-2"
+            />
+            <img
+                src="https://i.ibb.co/kJr9gs8/dots-group-sm.png"
+                alt="bg-shape" class="img-fluid bg-shape-3"
+            />
+            <img
+                src="https://i.ibb.co/Ms3xvCV/leaf-pink-round.png"
+                alt="bg-shape" class="img-fluid bg-shape-4"
+            />
+            <img
+                src="https://i.ibb.co/7RksBzQ/leaf-cyan.png"
+                alt="bg-shape" class="img-fluid bg-shape-5"
+            />
+        </section>
+
+        <!-- client logo slider -->
+        <section class="section pb-0">
+            <div class="container">
+                <div class="client-logo-slider d-flex align-items-center">
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/q5XDptD/client-logo-1.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/TR64y9H/client-logo-2.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/Q6PRFPg/client-logo-3.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/LSmZvJD/client-logo-4.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/pK9KdhT/client-logo-5.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/q5XDptD/client-logo-1.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/TR64y9H/client-logo-2.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/Q6PRFPg/client-logo-3.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/LSmZvJD/client-logo-4.png" alt="client-logo"/></a>
+                    <a href="contact.html" class="text-center d-block outline-0 p-4">
+                        <img class="d-unset img-fluid" src="https://i.ibb.co/pK9KdhT/client-logo-5.png" alt="client-logo"/></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- blog -->
+        <section class="section" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title wow fadeInDown">Blogs</h2>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <article
+                            class="card shadow wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4"
+                        >
+                            <img
+                                class="rounded card-img-top"
+                                src="https://i.ibb.co/mHSHdhz/post-3.jpg"
+                                alt="post-thumb"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a class="text-dark" href="blog-single.html"
+                                        >UI vs UX: How They Work Together</a
+                                    >
+                                </h4>
+                                <p class="cars-text">
+                                    Learn how UI and UX design combine to create
+                                    smooth, user-friendly digital experiences
+                                    that both look and feel great.
+                                </p>
+                                <a
+                                    href="blog-single.html"
+                                    class="btn btn-xs btn-primary"
+                                    >Read More</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <article
+                            class="card shadow wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.6"
+                        >
+                            <img
+                                class="rounded card-img-top"
+                                src="https://i.ibb.co/f8z93r5/post-4.jpg"
+                                alt="post-thumb"
+                            />
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a class="text-dark" href="blog-single.html"
+                                        >Top 5 UI/UX Mistakes to Avoid</a
+                                    >
+                                </h4>
+                                <p class="cars-text">
+                                    Avoid common design pitfalls like cluttered
+                                    layouts and confusing navigation with these
+                                    practical tips for better UI/UX design.
+                                </p>
+                                <a
+                                    href="blog-single.html"
+                                    class="btn btn-xs btn-primary"
+                                    >Read More</a
+                                >
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <article class="card shadow wow fadeIn" data-wow-duration="1" data-wow-delay="0.12">
+                            <img class="rounded card-img-top" src="https://i.ibb.co/sqSdtJt/post-2.jpg" alt="post-thumb"/>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a class="text-dark" href="blog-single.html">Why Responsive Design Matters</a>
+                                </h4>
+                                <p class="cars-text">
+                                    Discover why responsive design is essential
+                                    for modern websites and how it ensures
+                                    smooth performance on all devices.
+                                </p>
+                                <a href="blog-single.html" class="btn btn-xs btn-primary" >Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section
+            class="section section-on-footer"
+            data-background="https://i.ibb.co/VTGzZch/bg-dots.png" id="contact"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="section-title wow fadeInDown">
+                            Contact Info
+                        </h2>
+                    </div>
+                    <div class="col-lg-8 mx-auto">
+                        <div
+                            class="bg-white rounded text-center p-5 shadow-down wow fadeIn"
+                            data-wow-duration="1"
+                            data-wow-delay="0.4"
+                        >
+                            <h4 class="mb-5">Contact Form</h4>
+                            <form action="#" class="row">
+                                <div class="col-md-6">
+                                    <input
+                                        type="text" id="name" name="name"
+                                        placeholder="Full Name"
+                                        class="form-control px-0 mb-4"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <input
+                                        type="email" id="email" name="email"
+                                        placeholder="Email Address"
+                                        class="form-control px-0 mb-4"
+                                        required
+                                    />
+                                </div>
+                                <div class="col-12">
+                                    <textarea
+                                        name="message" id="message"
+                                        class="form-control px-0 mb-4"
+                                        placeholder="Type Message Here"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="col-lg-6 col-10 mx-auto">
+                                    <button class="btn btn-primary w-100">
+                                        send
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="bg-dark footer-section">
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5 class="text-secondary">Email</h5>
+                            <p class="text-white paragraph-lg">abc@email.com</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-secondary">Phone</h5>
+                            <p class="text-white paragraph-lg">+000 000 000</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-secondary">Address</h5>
+                            <p class="text-white paragraph-lg">
+                                125/ABC, Location, USA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top text-center border-dark py-5">
+                <p class="mb-0 text-secondary">
+                    Copyright &copy; 2023 Designed &amp; Developed by
+                    <a class="text-white-50" href="#">Prashant</a>
+                </p>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
