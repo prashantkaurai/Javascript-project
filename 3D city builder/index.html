@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>3D City Builder</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style src="style.css"></style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="cityCanvas"></canvas>
+    <div id="ui">
+      <div>Population: <span id="population">0</span></div>
+      <div>Happiness: <span id="happiness">100%</span></div>
+      <div>Income: $<span id="income">0</span></div>
+    </div>
+    <div id="buildMenu">
+      <button class="buildBtn" data-building="house">Build House</button>
+      <button class="buildBtn" data-building="office">Build Office</button>
+      <button class="buildBtn" data-building="park">Build Park</button>
+    </div>
+    <div id="weatherControls">
+      <button id="toggleDayNight">Toggle Day/Night</button>
+      <button id="toggleRain">Toggle Rain</button>
+    </div>
+    <p>click the button and build what you want like House, Office and Park.</p>
+  </body>
+</html>
